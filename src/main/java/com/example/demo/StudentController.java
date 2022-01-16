@@ -17,14 +17,10 @@ public class StudentController {
 
          @GetMapping("/students")
          public List<Student> studentList(){
-        List<Student> students = new ArrayList<>();
-                     students.add(new Student("Nurlan","Kzakabaev"));
-                     students.add(new Student("Yeha","Kzakabaev"));
-                     students.add(new Student("Murat","Kzakabaev"));
-                     students.add(new Student("Shavkat","Kzakabaev"));
-                     students.add(new Student("Naruh","Kzakabaev"));
+            List<Student> studentList = new ArrayList<>();
+            studentList.add(new Student("yeha", "Blyat"));
 
-             return students;
+             return studentList;
          }
 
 }
